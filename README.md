@@ -35,6 +35,7 @@ Here is what is currently available in this repository:
 | `lists.js` | Advanced array and list manipulation functions for complex data handling. | 
 | `strings.js` | Tools for text parsing and string manipulation. |
 | `utilities.js` | Core helper functions and general tools for manipulating the DOM. |
+| `math.js` | Stop doing block based nightmare calculations |
 
 ## Contributing
 
