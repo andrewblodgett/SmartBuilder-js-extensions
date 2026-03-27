@@ -31,10 +31,11 @@ Here is what is currently available in this repository:
 
 | Script Name | Description |
 | :--- | :--- |
+| `utilities.js` | Core helper functions and general tools for manipulating the DOM and debugging |
 | `charts.js` | Functions for customizing the chart widget. **Note: Requires `utilities.js` to be installed to function properly.** |
 | `lists.js` | Advanced array and list manipulation functions for complex data handling. | 
 | `strings.js` | Tools for text parsing and string manipulation. |
-| `utilities.js` | Core helper functions and general tools for manipulating the DOM. |
+| `text.js` | Additional functionality for text objects |
 | `math.js` | Stop doing block based nightmare calculations |
 
 ## Contributing
