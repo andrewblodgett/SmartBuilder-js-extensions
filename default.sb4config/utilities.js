@@ -73,3 +73,17 @@ function getWidth(objectName) {
     return object.options._w
 }
 SB4API.functions.getWidth = getWidth;
+
+/**
+ * Narrates the provided text string using the browser's Speech Synthesis engine.
+ * A core accessibility feature for e-learning to support auditory learning 
+ * and visual impairments.
+ * * @function speak
+ * @param {string} [message="You forgot to put in a message"] - The text content to be spoken.
+ */
+function speak(message = "You forgot to put in a message") {
+    const utterance = new SpeechSynthesisUtterance(message);
+    speechSynthesis.speak(utterance);
+}
+
+SB4API.functions.speak = speak;
