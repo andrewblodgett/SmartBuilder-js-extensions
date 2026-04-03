@@ -94,6 +94,7 @@ SB4API.functions.speak = speak;
  * and visual impairments.
  * * @function setLanguage
  * @param {string|Object} - The name or the object itself.
+ * @param {string} - The language the text is. Usually a 2 letters, such as "fr".
  */
 
  function setLanguage(objectName, language) {
